@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.menubar a.active {
-  background-color: purple;
+.menu a.active {
+  color: red;
 }
