@@ -8,18 +8,22 @@ import {
 const Menu = () => {
   return (
     <div>
-      <ul className="menu  w-10 text-white rounded-box">
+      <ul className="menu lg:fixed  w-10 text-white rounded-box">
         <li>
           <a
             href="#home"
-            className="tooltip tooltip-right mb-10 "
+            className="tooltip tooltip-right mb-12 "
             data-tip="Home"
           >
             <FaHome className="h-5 w-5"></FaHome>
           </a>
         </li>
         <li>
-          <a className="tooltip tooltip-right mb-10" data-tip="About Me">
+          <a
+            href="#about"
+            className="tooltip tooltip-right mb-10"
+            data-tip="About Me"
+          >
             <FaUserAlt className="h-5 w-5"></FaUserAlt>
           </a>
         </li>

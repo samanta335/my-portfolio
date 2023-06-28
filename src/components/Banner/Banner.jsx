@@ -3,13 +3,16 @@ import banner from "../../assets/banner.jpg";
 import resume from "../../assets/resume.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaFileDownload } from "react-icons/fa";
 AOS.init();
 const Banner = () => {
   return (
-    <div id="home" className="grid grid-cols-1 lg:grid-cols-2 ">
-      <div className="mx-auto my-auto">
+    <div id="home" className="grid grid-cols-1 lg:grid-cols-2 mb-16 my-auto">
+      <div data-aos="fade-down" className="mx-5 lg:mx-auto my-auto">
         <p className="text-lg font-medium "> Hi, I'am </p>
-        <p className="text-5xl font-bold uppercase">Samanta ISlam</p>
+        <p className="text-3xl lg:text-5xl font-bold uppercase">
+          Samanta ISlam
+        </p>
         <p className="text-pink-300">
           <TypeAnimation
             sequence={[
@@ -24,15 +27,16 @@ const Banner = () => {
           />
         </p>
         <a
-          className="btn btn-sm btn-outline btn-secondary"
+          className="btn  btn-outline btn-info my-5 "
           href={resume}
           download="samanta islam's| resume.pdf"
         >
+          <FaFileDownload className="h-5  w-5 text-white animate-bounce"></FaFileDownload>
           Get My Resume
         </a>
       </div>
-      <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-        <img className=" w-full rounded-lg" src={banner} alt="" />
+      <div data-aos="fade-up">
+        <img className="ml-2 w-full  rounded-lg" src={banner} alt="" />
       </div>
     </div>
   );
