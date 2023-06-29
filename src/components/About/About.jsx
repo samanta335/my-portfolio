@@ -8,12 +8,8 @@ const About = () => {
       >
         About Me
       </h1>
-      <div className="my-12  justify-center flex text-lg">
-        <div
-          className="mr-10 ml-4"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
+      <div className="my-12 flex justify-center text-lg">
+        <div className="mx-5 " data-aos="fade-right" data-aos-duration="1000">
           <p className="mb-8">Name : Samanta Islam</p>
           <p className="mb-8">Address : Narayanganj, Bangladesh</p>
           <p>Education : BBA Hon's in Management(First Year)</p>

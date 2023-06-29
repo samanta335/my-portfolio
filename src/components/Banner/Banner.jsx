@@ -46,7 +46,7 @@ const Banner = () => {
         </a>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000">
-        <img className="ml-2 w-full  rounded-lg" src={banner} alt="" />
+        <img className=" w-full  rounded-lg" src={banner} alt="" />
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const Skills = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="my-12 grid grid-cols-2 lg:grid-cols-4 gap-2 ml-4 lg:place-items-center "
+        className="my-12 grid grid-cols-2 lg:grid-cols-4 gap-2 place-items-center "
       >
         <p className=" flex items-center items-center ">
           <img className="w-10 mr-2  " src={html} alt="" />

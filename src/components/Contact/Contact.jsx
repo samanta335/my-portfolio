@@ -42,7 +42,7 @@ const Contact = () => {
         Contact Me
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center ml-1 my-12">
+      <div className="flex flex-col md:flex-row justify-center  my-12">
         <div
           className="lg:mx-20 my-auto"
           data-aos="fade-right"
@@ -83,13 +83,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <form
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          className="space-y-5 w-full"
-          ref={form}
-          onSubmit={sendEmail}
-        >
+        <form className="space-y-5 w-full" ref={form} onSubmit={sendEmail}>
           <input
             className="input input-bordered border-white focus:outline-none w-full"
             type="text"
