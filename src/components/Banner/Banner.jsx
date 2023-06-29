@@ -8,7 +8,11 @@ AOS.init();
 const Banner = () => {
   return (
     <div id="home" className="grid grid-cols-1 lg:grid-cols-2 mb-16 my-auto">
-      <div data-aos="fade-down" className="mx-5 lg:mx-auto my-auto">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        className="mx-5 lg:ml-20 my-auto mt-10"
+      >
         <p className="text-lg font-medium "> Hi, I'am </p>
         <p className="text-3xl lg:text-5xl font-bold uppercase">
           Samanta ISlam
@@ -26,6 +30,12 @@ const Banner = () => {
             repeat={Infinity}
           />
         </p>
+        <p className="w-3/4 mt-4 text-sm font-medium">
+          I'm a passionate junior frontend web developer with a strong
+          enthusiasm for creating beautiful and user-friendly websites.And i'm
+          constantly expanding my knowledge to stay up-to-date with the latest
+          web development trends and technologies.
+        </p>
         <a
           className="btn  btn-outline btn-info my-5 "
           href={resume}
@@ -35,7 +45,7 @@ const Banner = () => {
           Get My Resume
         </a>
       </div>
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" data-aos-duration="1000">
         <img className="ml-2 w-full  rounded-lg" src={banner} alt="" />
       </div>
     </div>

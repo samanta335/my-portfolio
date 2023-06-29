@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
 import Menu from "./components/Menu/Menu";
+import Project from "./components/Project/Project";
 import Skills from "./components/Skills/Skills";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </div>
       <About></About>
       <Skills></Skills>
+      <Project></Project>
       <Contact></Contact>
     </>
   );

@@ -11,15 +11,16 @@ import bootstrap from "../../assets/bootstrap.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="lg:mt-32 ">
+    <div id="skills">
       <h2
-        className="text-5xl text-center text-info font-medium"
+        className="text-5xl lg:mt-32  text-center text-info font-medium"
         data-aos="fade-up"
       >
         Skills
       </h2>
       <div
         data-aos="fade-up"
+        data-aos-duration="1000"
         className="my-12 grid grid-cols-2 lg:grid-cols-4 gap-2 ml-4 lg:place-items-center "
       >
         <p className=" flex items-center items-center ">

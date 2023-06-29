@@ -8,10 +8,11 @@ import {
   FaMailBulk,
   FaPhoneAlt,
 } from "react-icons/fa";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
+  const notify = () => toast.success(" Successfully Send");
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -32,16 +33,21 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className="lg:mt-24">
+    <div id="contact">
       <h2
         data-aos="zoom-in"
-        className="text-5xl text-center text-info font-medium"
+        data-aos-duration="1000"
+        className="text-5xl mt-32 text-center text-info font-medium"
       >
         Contact Me
       </h2>
 
       <div className="flex flex-col md:flex-row justify-center ml-1 my-12">
-        <div className="lg:mx-20 my-auto" data-aos="fade-right">
+        <div
+          className="lg:mx-20 my-auto"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <p className="flex items-center gap-3">
             <FaPhoneAlt className="border  border-info rounded-full p-3 h-11 w-11"></FaPhoneAlt>
             +8801642990394
@@ -79,6 +85,7 @@ const Contact = () => {
 
         <form
           data-aos="fade-left"
+          data-aos-duration="1000"
           className="space-y-5 w-full"
           ref={form}
           onSubmit={sendEmail}
@@ -112,11 +119,13 @@ const Contact = () => {
           <br />
           <input
             className="btn btn-outline btn-info w-1/4"
+            onClick={notify}
             type="submit"
             value="Send"
           />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };
