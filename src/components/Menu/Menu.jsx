@@ -8,14 +8,14 @@ import {
 const Menu = () => {
   return (
     <div>
-      <ul className="menu lg:fixed  w-10 text-white rounded-box">
+      <ul className="menu lg:fixed h-full pt-12  text-white rounded-box">
         <li>
           <a
             href="#home"
-            className="tooltip tooltip-right mb-8 "
+            className="tooltip tooltip-right mb-8  "
             data-tip="Home"
           >
-            <FaHome className="h-5 w-5"></FaHome>
+            <FaHome className="h-5 w-5 "></FaHome>
           </a>
         </li>
         <li>

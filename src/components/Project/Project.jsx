@@ -8,10 +8,10 @@ import ts1 from "../../assets/toys/2.png";
 import ts2 from "../../assets/toys/3.png";
 import ts3 from "../../assets/toys/4.png";
 import ts4 from "../../assets/toys/5.png";
-import cover3 from "../../assets/recipe/1.png";
-import rs1 from "../../assets/recipe/2.png";
-import rs2 from "../../assets/recipe/3.png";
-import rs3 from "../../assets/recipe/4.png";
+import cover3 from "../../assets/colleges/1.png";
+import rs1 from "../../assets/colleges/2.png";
+import rs2 from "../../assets/colleges/3.png";
+import rs3 from "../../assets/colleges/4.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -32,12 +32,13 @@ const Project = () => {
         My Projects
       </h2>
       <div className="grid lg:grid-cols-3 my-20 gap-5 max-w-screen-lg mx-auto">
-        <div className="card bg-neutral mx-auto card-compact h-full bg-base-100 shadow-xl">
+        <div className="card bg-neutral mx-auto card-compact shadow-xl">
           <figure>
             <img
               data-aos="zoom-in"
               data-aos-duration="1000"
               src={cover}
+              className="h-full w-full overly opacity-60"
               alt="Shoes"
             />
           </figure>
@@ -226,9 +227,10 @@ const Project = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title uppercase">Chef Hunter</h2>
+            <h2 className="card-title uppercase">College Booking</h2>
             <p>
-              Chef Hunter is React application with Firebase Authentication.
+              College booking is a React web application with Firebase
+              Authentication.
             </p>
             <div className="card-actions justify-end">
               <button
@@ -273,12 +275,12 @@ const Project = () => {
                 </SwiperSlide>
               </Swiper>
               <div className="flex justify-center gap-3 my-3 underline text-pink-300">
-                <a href="https://chef-recipe-d2746.web.app">Live Site</a>||
-                <a href="https://github.com/samanta335/chef-recipe-hunter-client">
+                <a href="https://college-booking-85eda.web.app">Live Site</a>||
+                <a href="https://github.com/samanta335/college-booking-client">
                   Client Code
                 </a>
                 |
-                <a href="https://github.com/samanta335/chef-recipe-hunter-server">
+                <a href="https://github.com/samanta335/college-booking-server">
                   Server Code
                 </a>
               </div>
@@ -286,21 +288,21 @@ const Project = () => {
                 Features Summery:
               </h1>
               <p className="mb-3">
-                • Project has meaningful header and footer. In header have two
+                • Project has meaningful header and footer. In header have four
                 routes.
               </p>
               <p className="mb-3">
-                • No one can view details after clicking view recipes without
-                login.
+                • No one can college details without login.
               </p>
               <p className="mb-3">
-                • There is a blog page with some question and ans.
+                • There is a my college route with admission colleges and review
+                section.
               </p>
 
               <span className="text-xl text-info font-semibold">
                 Technologies:
               </span>
-              <p>React, React Router, Tailwind, Firebase.</p>
+              <p>React, React Router, Tailwind, Firebase,MongoDB.</p>
             </div>
           </form>
         </dialog>

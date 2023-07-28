@@ -42,9 +42,9 @@ const Contact = () => {
         Contact Me
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center  my-12">
+      <div className="flex flex-col md:flex-row mx-auto justify-center  my-12">
         <div
-          className="lg:mx-20 my-auto"
+          className="lg:mx-24 my-auto"
           data-aos="fade-right"
           data-aos-duration="1000"
         >

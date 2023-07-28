@@ -9,7 +9,7 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <>
-      <div className="flex mt-8">
+      <div className="flex">
         <Menu></Menu>
         <Banner></Banner>
       </div>
