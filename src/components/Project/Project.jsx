@@ -27,12 +27,12 @@ const Project = () => {
       <h2
         data-aos="zoom-out"
         data-aos-duration="1000"
-        className="text-5xl text-center text-info font-medium"
+        className="text-5xl text-center text-purple-700 font-medium"
       >
         My Projects
       </h2>
-      <div className="grid lg:grid-cols-3 my-20 gap-5 max-w-screen-lg mx-auto">
-        <div className="card bg-neutral mx-auto card-compact shadow-xl">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 my-20 gap-5 max-w-screen-lg mx-auto">
+        <div className="card  mx-auto card-compact shadow-xl">
           <figure>
             <img
               data-aos="zoom-in"
@@ -93,7 +93,7 @@ const Project = () => {
                   <img src={sp4} alt="" />
                 </SwiperSlide>
               </Swiper>
-              <div className="flex justify-center gap-3 my-3 underline text-pink-300">
+              <div className="flex justify-center gap-3 my-3 underline text-pink-500">
                 <a href="https://summer-camp-4a50c.web.app/">Live Site</a>||
                 <a href="https://github.com/samanta335/sports-school-client">
                   Client Code
@@ -129,7 +129,7 @@ const Project = () => {
             </div>
           </form>
         </dialog>
-        <div className="card card-compact bg-neutral mx-auto h-full bg-base-100 shadow-xl">
+        <div className="card card-compact  mx-auto h-full  shadow-xl">
           <figure>
             <img
               data-aos="zoom-in"
@@ -189,7 +189,7 @@ const Project = () => {
                   <img src={ts4} alt="" />
                 </SwiperSlide>
               </Swiper>
-              <div className="flex justify-center gap-3 my-3 underline text-pink-300">
+              <div className="flex justify-center gap-3 my-3 underline text-pink-500">
                 <a href=" https://toy-zone-3d112.web.app">Live Site</a>||
                 <a href="https://github.com/samanta335/toy-marketplace-client">
                   Client Code
@@ -217,7 +217,7 @@ const Project = () => {
             </div>
           </form>
         </dialog>
-        <div className="card card-compact bg-neutral mx-auto h-full bg-base-100 shadow-xl">
+        <div className="card card-compact  mx-auto h-full  shadow-xl">
           <figure>
             <img
               data-aos="zoom-in"
@@ -274,7 +274,7 @@ const Project = () => {
                   <img src={rs3} alt="" />
                 </SwiperSlide>
               </Swiper>
-              <div className="flex justify-center gap-3 my-3 underline text-pink-300">
+              <div className="flex justify-center gap-3 my-3 underline text-pink-500">
                 <a href="https://college-booking-85eda.web.app">Live Site</a>||
                 <a href="https://github.com/samanta335/college-booking-client">
                   Client Code

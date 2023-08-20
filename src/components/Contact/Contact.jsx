@@ -37,14 +37,14 @@ const Contact = () => {
       <h2
         data-aos="zoom-in"
         data-aos-duration="1000"
-        className="text-5xl mt-32 text-center text-info font-medium"
+        className="text-5xl mt-32 text-center text-purple-700 font-medium"
       >
         Contact Me
       </h2>
 
-      <div className="flex flex-col md:flex-row mx-auto justify-center  my-12">
+      <div className="flex  flex-col md:flex-row mx-auto justify-center  my-12">
         <div
-          className="lg:mx-24 my-auto"
+          className="mx-auto lg:mx-24 my-auto"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -55,7 +55,7 @@ const Contact = () => {
           <p className="flex items-center gap-3 mt-3">
             <FaMailBulk className="border  border-info rounded-full p-3 h-11 w-11 "></FaMailBulk>
             <a
-              className="underline hover:text-pink-500"
+              className="underline hover:text-purple-500"
               href="mailto:samantaislam355@gmail.com"
             >
               samantaislam355@gmail.com
@@ -66,7 +66,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/samanta-islam-0ba236280/"
               data-tip="LinedIn"
             >
-              <FaLinkedin className="border bg-pink-300 text-black rounded-lg p-2 h-9 w-9"></FaLinkedin>
+              <FaLinkedin className="border bg-purple-400 text-black rounded-lg p-2 h-9 w-9"></FaLinkedin>
             </a>
             <a href="https://github.com/samanta335" data-tip="Github">
               <FaGithub className="border bg-pink-300 text-black rounded-lg p-2 h-9 w-9"></FaGithub>
@@ -75,7 +75,7 @@ const Contact = () => {
               href="https://www.facebook.com/Samanta.Islam.27"
               data-tip="Facebook"
             >
-              <FaFacebook className="border  bg-pink-300 text-black rounded-lg p-2 h-9 w-9"></FaFacebook>
+              <FaFacebook className="border  bg-purple-400 text-black rounded-lg p-2 h-9 w-9"></FaFacebook>
             </a>
             <a href="https://www.instagram.com/samanta._/" data-tip="Instagram">
               <FaInstagram className="border bg-pink-300 text-black rounded-lg p-2 h-9 w-9"></FaInstagram>
@@ -83,9 +83,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <form className="space-y-5 w-full" ref={form} onSubmit={sendEmail}>
+        <form className="space-y-5 w-full px-5" ref={form} onSubmit={sendEmail}>
           <input
-            className="input input-bordered border-white focus:outline-none w-full"
+            className="input input-bordered border-neutral-content focus:outline-none w-full"
             type="text"
             name="from_name"
             placeholder="Name"
@@ -93,26 +93,26 @@ const Contact = () => {
           <br />
           <input
             type="email"
-            className="input input-bordered border-white focus:outline-none  w-full"
+            className="input input-bordered border-neutral-content focus:outline-none  w-full"
             name="from_email"
             placeholder="Email"
           />
           <br />
           <input
-            className="input input-bordered border-white focus:outline-none w-full"
+            className="input input-bordered border-neutral-content focus:outline-none w-full"
             type="text"
             name="subject"
             placeholder="Subject"
           />
           <br />
           <textarea
-            className="input input-bordered min-h-[100px] border-white focus:outline-none w-full bg-inherit "
+            className="input input-bordered min-h-[100px] border-neutral-content focus:outline-none w-full bg-inherit "
             name="message"
             placeholder="Message"
           />
           <br />
           <input
-            className="btn btn-outline btn-info w-1/4"
+            className="btn  btn-info w-1/4"
             onClick={notify}
             type="submit"
             value="Send"

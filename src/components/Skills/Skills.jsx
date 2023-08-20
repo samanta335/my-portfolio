@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <h2
-        className="text-5xl lg:mt-32  text-center text-info font-medium"
+        className="text-5xl lg:mt-32  text-center text-purple-700 font-medium"
         data-aos="fade-up"
       >
         Skills

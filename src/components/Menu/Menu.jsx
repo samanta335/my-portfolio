@@ -8,7 +8,7 @@ import {
 const Menu = () => {
   return (
     <div>
-      <ul className="menu lg:fixed h-full pt-12  text-white rounded-box">
+      <ul className="menu lg:fixed h-full pt-12  text-purple-800 rounded-box">
         <li>
           <a
             href="#home"
@@ -51,7 +51,7 @@ const Menu = () => {
             className="tooltip tooltip-right mb-10"
             data-tip="Contact"
           >
-            <FaRegUserCircle className="h-6 w-6"></FaRegUserCircle>
+            <FaRegUserCircle className="h-6 w-5"></FaRegUserCircle>
           </a>
         </li>
       </ul>
